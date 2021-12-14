@@ -1,1 +1,12 @@
 POST http://0.0.0.0:80/api/review/add
+Accept: Application/json
+Content-Type: Application/json
+
+{
+    "title": "thermometer",
+    "description": "I use it for many times and always an accurate data",
+    "rate": 5,
+    "advantages": "little, cheap",
+    "disadvantages": "none",
+    "user_id": 1
+}
